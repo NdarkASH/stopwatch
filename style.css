@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    background: url(https://t3.ftcdn.net/jpg/01/45/06/70/240_F_145067044_EwQkvZn5QQS2dqVbzr7sv6JP3cfzjQfo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    margin: 150px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 70px;
+    font-weight: 350px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 35px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    width: 80px;
+}
+
